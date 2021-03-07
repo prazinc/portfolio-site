@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+   
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 15px;
+  }
+
+.name {
+    font-size: 40px;
+    font-family: cursive;
+    color: darkred
+}
+
+.aboutme {
+    border-top: 15px solid darkred;
+    border-bottom: 15px solid darkred;
+    display: flex;
+}
+  
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text p {
+    width: 50%;
+}
+
+.myphoto {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+} 
+
+
+
+.Maxwell {
+    height: 400px;
+    width: 400px;
+} 
+
+
+.interests {
+    border-top: 15px solid darkred;
+    border-bottom: 15px solid darkred;
+    display: flex;
+}
